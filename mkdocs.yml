@@ -1,7 +1,7 @@
 site_name: RuheIT Docs
-theme: material
-palette:
-    primary: green
+theme:
+  palette:
+    scheme: default
 logo: assets/logo.png
 favicon: assets/logo.png
 nav:
