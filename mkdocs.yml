@@ -2,6 +2,7 @@ site_name: RuheIT Docs
 theme:
   palette:
     scheme: default
+    primary: green
 logo: assets/logo.png
 favicon: assets/logo.png
 nav:
