@@ -1,6 +1,8 @@
 site_name: RuheIT Docs
 theme:
   name: material
+  features:
+    - navigation.tabs
   palette:
     scheme: default
     primary: green
