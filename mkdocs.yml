@@ -1,5 +1,6 @@
 site_name: RuheIT Docs
-theme: material
+theme:
+  name: material
   palette:
     scheme: default
     primary: green
