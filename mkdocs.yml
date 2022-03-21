@@ -1,5 +1,9 @@
 site_name: RuheIT Docs
 theme: material
+logo: assets/logo.png
+favicon: assets/logo.png
+palette:
+    primary: green
 nav:
     - Home: index.md
     - Team: team.md
