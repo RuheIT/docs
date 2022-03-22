@@ -1,6 +1,4 @@
 # Infraestructura
-
-[TOC]
 ## Diagrama de infraestructura
 
 ![Diagrama](img/infra/RuheIT_MainNetwork.drawio.png)
