@@ -17,6 +17,7 @@ theme:
 nav:
     - Home: index.md
     - Equipo: equipo.md
+    - Creación de la memoria: creacionmemoria.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md
     - Microsoft 365: microsoft365.md
