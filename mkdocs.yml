@@ -33,4 +33,11 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="ruheit.xyz" target=_blank>feedback form</a>.
+markdown_extensions:
+  - footnotes
+  - admonition
+  - abbr
+  - md_in_html
+  - toc:
+      title: Contenido
 copyright: Copyright &copy; 2022 RuheIT
