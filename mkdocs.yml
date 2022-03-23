@@ -18,9 +18,15 @@ nav:
     - Home: index.md
     - Equipo: equipo.md
     - Creación de la memoria: creacionmemoria.md
+    - RSC: rsc.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md
     - Microsoft 365: microsoft365.md
+    - Seguridad: 
+      - Mitigaciones realizadas:
+        - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
+        - PkExec (PwnKit): mitigacionesSeguridad/pkexecPwnKit.md
+
 extra:
   analytics:
     provider: google
