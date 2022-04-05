@@ -1,4 +1,4 @@
-## Vulnerabilidad XMLRPC (WordPress)
+# Vulnerabilidad XMLRPC (WordPress)
 
 Esta vulnerabilidad consistía en que si un atacante conseguía realizar una petición web por el método POST al fichero xmlrpc.php y veía que existía, teniendo credenciales validas, le permitiría crear artículos, subir ficheros maliciosos…
 
