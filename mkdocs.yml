@@ -23,6 +23,16 @@ nav:
     - Herramientas: herramientas.md
     - Microsoft 365: microsoft365.md
     - Crypto: crypto.md
+    - Aplicaciones:
+      - GoPhish: aplicaciones/gophish.md
+      - Grafana: aplicaciones/grafana.md
+      - Mailcow: aplicaciones/mailcow.md
+      - Nessus: aplicaciones/nessus.md
+      - Portainer: aplicaciones/portainer.md
+      - Pritunl: aplicaciones/pritunl.md
+      - PwnDoc: aplicaciones/pwndoc.md
+      - Vault: aplicaciones/vault.md
+      - Zabbix: aplicaciones/zabbix.md
     - Seguridad: 
       - Mitigaciones realizadas:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md

@@ -27,6 +27,11 @@ Disponemos de las siguientes aplicaciones
 
 #### Zabbix
 
+En RuheIT utilizamos Zabbix como sistema de monitorización de hosts.
+Zabbix nos permite monitorizar por varios protocolos y poder obtener gráficas de los diversos servicios para analizar en detalle cada incidencia.
+
+[Ver más sobre Zabbix en RuheIT.](/aplicaciones/zabbix)
+
 #### Grafana
 
 #### Portainer
