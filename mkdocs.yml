@@ -29,10 +29,14 @@ nav:
       - Mailcow: aplicaciones/mailcow.md
       - Nessus: aplicaciones/nessus.md
       - Portainer: aplicaciones/portainer.md
+      - CodiMD: aplicaciones/codimd.md
+      - Moodle: aplicaciones/moodle.md
       - Pritunl: aplicaciones/pritunl.md
       - PwnDoc: aplicaciones/pwndoc.md
       - Vault: aplicaciones/vault.md
       - Zabbix: aplicaciones/zabbix.md
+    - Servicios:
+      - Moodle: servicios/moodle.md
     - Seguridad: 
       - Mitigaciones realizadas:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
