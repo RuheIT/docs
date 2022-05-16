@@ -10,8 +10,18 @@ theme:
     - navigation.indexes
     - toc.integrate
   palette:
-    scheme: default
-    primary: green
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Activa el modo oscuro
+      primary: green
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle: 
+        icon: material/toggle-switch
+        name: Activa el modo claro
+      primary: green
   logo: assets/logo.png
   favicon: assets/logo.png
 nav:
@@ -43,6 +53,7 @@ nav:
         - PkExec (PwnKit): mitigacionesSeguridad/pkexecPwnKit.md
 
 extra:
+  generator: false
   analytics:
     provider: google
     property: G-S1W5D3WGT2
