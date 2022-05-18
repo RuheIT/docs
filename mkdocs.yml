@@ -1,6 +1,8 @@
 site_name: RuheIT Docs
 theme:
   name: material
+  font:
+    text: Roboto
   language: es
   features:
     - navigation.tabs
