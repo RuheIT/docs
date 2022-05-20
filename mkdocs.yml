@@ -29,7 +29,8 @@ theme:
 nav:
     - Home: index.md
     - Equipo: equipo.md
-    - Creación de la memoria: creacionmemoria.md
+    - Memoria: memoria.md
+    - Empresa: empresa/empresa.md
     - RSC: rsc.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md

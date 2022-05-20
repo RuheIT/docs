@@ -1,4 +1,4 @@
-# Creación de la memoria con mkdocs
+# Memoria con MKDocs
 
 La memoria del proyecto está creada con MkDocs, publicada a través de una GitHub Action en GitHub Pages.
 

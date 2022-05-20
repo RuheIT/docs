@@ -2,7 +2,9 @@
 
 Grafana es una herramienta multiplataforma de log analytics, permite mostrar de manera clara datos de diferentes datasources, creando Dashboards adecuados a los datos que se necesiten mostrar.
 
-Grafana es Open Source y permite desarrollar plugins para conectar diferentes aplicaciones y poder mostrar los d
+Grafana es Open Source y permite desarrollar plugins para conectar diferentes aplicaciones y poder mostrar los datos recopilados.
+
+![Grafana Dashboard](../img/apps/GrafanaMain.png)
 
 ## ¿Quién utiliza Grafana ?
 
@@ -20,6 +22,9 @@ Grafana tiene muchos puntos fuertes, como por ejemplo:
 
 * **Control del dato:** gracias a las herramientas que nos proporciona Grafana podemos tener controlada la ingesta de datos, permitiéndonos así poder mirar mediante un visor intuitivo y avanzado los datos recopilados. Estos datos pueden ser "plasmados" en dashboards o analizados de manera "plana".
 
+<center>
+![Grafana Integrations](../img/apps/GrafanaIntegration.png)
+</center>
 
 ## ¿Qué es un datasource?
 
@@ -35,6 +40,10 @@ A parte de poder conectarse a datasources modernos, también puede conectarse a:
 * MySQL
 * PostgreSQL
 * Microsoft SQL Server
+
+<center>
+![Grafana Datasources](../img/apps/GrafanaDatasources.jpg)
+</center>
 
 La capacidad de conexión a estos datasource permite integrar los logs o datos de entornos empresariales desarrollados en estas tecnologías (la mayoría).
 
@@ -53,6 +62,7 @@ Otro de los puntos fuertes, es que recientemente, gracias a un desarrollo open s
 * Gitlab
 * Dynatrace
 * Datadog
+
 ## ¿Qué es un dashboard de Grafana?
 
 Los dashboards de Grafana contienen la información recopilada de los diferentes datasources.
@@ -61,14 +71,32 @@ Gracias a los Dashboards de Grafana podemos combinar, correlacionar y mostrar lo
 
 Los Dashboards pueden ser utilizados para:
 
-
 * Mostrar métricas en tiempo real
 * Generación de reportes e informes
 * Alerting
 
+Grafana puede ser utilizado para muchos fines, al fin y al cabo la posibilidad de crear un Dashboard utilizando múltiples datasources permite la total creatividad por parte del desarrollador o administrador para relacionar y mostrar datos en tiempo real.
+
+<center>
+![Grafana Dashboards](../img/apps/GrafanaDash.png)
+</center>
 ### Alerting
 
 Grafana permite alertar mediante:
 
 * Teams (WebHooks)
+* Telegram
+* WhatsApp (vía Twilio)
+* SMS
+* Email
+
+Las notificaciones permiten alertar de eventos definidos por el administrador a diferentes grupos, incluso, gracias a estas notificaciones podemos integrar Grafana en la mayoría de ITSMs o sistemas de productividad.
+
+![Grafana Rules](../img/apps/GrafanaRules.png)
+
+## ¿Qué puede aportar Grafana a los clientes de RuheIT?
+
+Como comentamos en esta página, Grafana puede aportar la creación de un entorno donde todos los datos puedan ser explotados, usados para optimizar o monitorizar equipos informáticos, equipos de técnicos... las posibilidades son infinitas.
+
+
 
