@@ -49,7 +49,15 @@ nav:
       - Vault: aplicaciones/vault.md
       - Zabbix: aplicaciones/zabbix.md
     - Servicios:
-      - Moodle: servicios/moodle.md
+      - Auditoría de sistemas: servicios/auditsistemas.md
+      - Auditorías de red corporativa: servicios/auditcorp.md
+      - Gestión de infraestructura: servicios/gestioninfra.md
+      - Monitorización de servidores y servicios: servicios/monitoring.md
+      - eLearning: servicios/eLearning.md
+      - CTF: servicios/ctf.md
+      - Correo y colaboración: servicios/emailandcolab.md
+      - VDI: servicios/vdi.md
+      - Web hosting: servicios/webhosting.md
     - Seguridad: 
       - Mitigaciones realizadas:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
