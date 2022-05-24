@@ -4,10 +4,10 @@ RuheIT es un proveedor de servicios para empresas, proveemos todo tipo de servic
 
 ## Servicios ofrecidos
 
-- Auditoría de sistemas
-- Auditoría de red corporativa
-    * Interna
-    * Externa
+- Auditoría de sistemas (interna)
+- Auditorías de redes inalámbricas
+- Auditorías de infraestructura web
+- Campañas de phising, awareness
 - Gestión de infraestructura
     * Active Directory
     * Azure Active Directory (AAD)

@@ -34,7 +34,7 @@ nav:
     - RSC: rsc.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md
-    - Microsoft 365: microsoft365.md
+    - Microsoft 365 y Azure: microsoft365.md
     - Crypto: crypto.md
     - Aplicaciones:
       - GoPhish: aplicaciones/gophish.md
@@ -49,8 +49,10 @@ nav:
       - Vault: aplicaciones/vault.md
       - Zabbix: aplicaciones/zabbix.md
     - Servicios:
-      - Auditoría de sistemas: servicios/auditsistemas.md
-      - Auditorías de red corporativa: servicios/auditcorp.md
+      - Auditoría de sistemas (interna): servicios/auditsistemas.md
+      - Auditorías de redes inalámbricas: servicios/auditoriainalambricas.md
+      - Auditorías de infraestructura web: servicios/auditweb.md
+      - Campañas de phising, awareness: servicios/phishingawareness.md
       - Gestión de infraestructura: servicios/gestioninfra.md
       - Monitorización de servidores y servicios: servicios/monitoring.md
       - eLearning: servicios/eLearning.md
@@ -87,6 +89,7 @@ markdown_extensions:
   - admonition
   - abbr
   - md_in_html
+  - tables
   - toc:
       title: Contenido
   - pymdownx.highlight:
@@ -103,3 +106,6 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 copyright: Copyright &copy; 2022 RuheIT
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
