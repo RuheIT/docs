@@ -15,7 +15,6 @@ Una vez sincronizados los usuarios con Azure AD, estos usuarios se crean en Micr
 
 ### Grupos creados
 
-
 | Nombre del Grupo                     | Descripción                                                                                                      |
 |:-------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
 | DnsUpdateProxy                  | DNS clients who are permitted to perform dynamic updates on behalf of some other clients (such as DHCP servers). |
@@ -59,8 +58,6 @@ Una vez sincronizados los usuarios con Azure AD, estos usuarios se crean en Micr
 | SCCM_APPS                       | Access to all SCCM APPS                                                                                          |
 | Azure ATP ruheit Administrators |                                                                                                   |
 
-
-
 ## Microsoft Teams
 
 En RuheIT utilizamos Microsoft Teams para la comunicación interna, creando así varios equipos para fomentar la colaboración de los empleados en la empresa.
@@ -74,3 +71,26 @@ Cada canal está linkeado a un sitio de Sharepoint.
 Los canales de Microsoft Teams también son usados para notificar eventos, cambios... cada departamento dispone de su canal de Teams.
 
 ## Aplicaciones de Azure
+
+Las aplicaciones de Azure AD son utilizadas con varios fines, por ejemplo:
+
+* SSO de aplicaciones
+* Reporte de tareas programadas obteniendo datos de Azure.
+
+<center>
+
+| Nombre de la aplicación            | Tenant        |
+|:----------------------:|:----------------------:|
+| Grafana RuheIT         | ruheit.onmicrosoft.com |
+| CodiMD RuheIT          | ruheit.onmicrosoft.com |
+| RuheIT Scheduled Tasks | ruheit.onmicrosoft.com |
+| Moodle RuheIT          | ruheit.onmicrosoft.com |
+| RuheIT Intranet        | ruheit.onmicrosoft.com |
+| Guacamole RuheIT       | ruheit.onmicrosoft.com |
+| WordPress RuheIT       | ruheit.onmicrosoft.com |
+| Veeam RuheIT           | ruheit.onmicrosoft.com |
+| RuheIT 3CX             | ruheit.onmicrosoft.com |
+| PRE_RuheIT Intranet    | ruheit.onmicrosoft.com |
+| RuheIT Portainer       | ruheit.xyz             |
+
+</center>
