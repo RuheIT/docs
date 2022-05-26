@@ -128,7 +128,7 @@ Las aplicaciones de Azure AD son utilizadas con varios fines, por ejemplo:
 
 <center>
 
-| Nombre de la aplicación| Tenant        |
+| Nombre de la aplicación| Tenant                 |
 |:----------------------:|:----------------------:|
 | Grafana RuheIT         | ruheit.onmicrosoft.com |
 | CodiMD RuheIT          | ruheit.onmicrosoft.com |

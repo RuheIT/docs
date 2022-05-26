@@ -30,7 +30,15 @@ nav:
     - Home: index.md
     - Equipo: equipo.md
     - Memoria: memoria.md
-    - Empresa: empresa/empresa.md
+    - Empresa:
+      - Práctica 1: empresa/practica1.md
+      - Práctica 2: empresa/practica2.md
+      - Práctica 3: empresa/practica3.md
+      - Práctica 4: empresa/practica4.md
+      - Práctica 5: empresa/practica5.md
+      - Práctica 6: empresa/practica6.md
+      - Práctica 7: empresa/practica7.md
+      - Práctica 8: empresa/practica8.md
     - RSC: rsc.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md
