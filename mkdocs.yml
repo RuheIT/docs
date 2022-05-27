@@ -39,7 +39,6 @@ nav:
       - Práctica 6: empresa/practica6.md
       - Práctica 7: empresa/practica7.md
       - Práctica 8: empresa/practica8.md
-    - RSC: rsc.md
     - Infraestructura: infra.md
     - Herramientas: herramientas.md
     - Microsoft 365 y Azure: microsoft365.md
@@ -69,6 +68,7 @@ nav:
       - VDI: servicios/vdi.md
       - Web hosting: servicios/webhosting.md
     - Seguridad: 
+      - Auditoría de seguridad: mitigacionesSeguridad/auditoria.md
       - Mitigaciones realizadas:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
         - PkExec (PwnKit): mitigacionesSeguridad/pkexecPwnKit.md
