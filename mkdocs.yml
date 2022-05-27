@@ -43,6 +43,7 @@ nav:
     - Herramientas: herramientas.md
     - Microsoft 365 y Azure: microsoft365.md
     - Crypto: crypto.md
+    - Intranet: intranet.md
     - Aplicaciones:
       - GoPhish: aplicaciones/gophish.md
       - Grafana: aplicaciones/grafana.md
