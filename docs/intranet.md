@@ -6,7 +6,38 @@
 
 ## Introducción a nuestra intranet
 
+La intranet de Ruhe IT es una aplicación interna destinada a ser usada por los empleados para solicitar vacaciones, solicitar días de baja y consultar sus correspondientes datos localizados en su perfil.
 
+Está alojada en los servidores de la empresa, pero cualquiera puede acceder a ella mediante la URL [intranet.ruheit.xyz](https://intranet.ruheit.xyz). 
+
+
+<center>
+![Intranet Login](img/IntranetLogin.png)
+</center>
+
+En esta URL lo primero que encontramos es el logo de Ruhe IT, seguido por el inicio de sesión a la Intranet donde se pueden ver 2 tipos de inicio de sesión, el primero, usando unas credenciales válidas (usuario y una contraseña) previamente proporcionadas por el equipo directivo, y el segundo, mediante OAuth2 usando una cuenta oficial de Microsoft con el dominio de Ruhe IT previamente proporcionada por el equipo directivo.
+
+Una vez iniciada la sesión, lo primero que vemos es un menú, el cual el contenido del mismo dependerá de si el usuario que ha iniciado sesión tiene un rol administrativo o de trabajador común.
+
+![Intranet Navbar](img/IntranetNav.png)
+
+### Management
+
+Esta opción aparecerá únicamente para usuarios con rol administrativo, contiene las siguientes páginas:
+
+* Requests
+* User lists
+* User creation
+
+#### User List
+
+Es un acceso a la lista de usuarios donde se podrán modificar los datos de los distintos usuarios.
+
+![Intranet User List](./img/IntranetUserList.png)
+
+Dentro de cada usuario podemos editar sus propiedades
+
+![Intranet User Edit](./img/IntranetUserEdit.png)
 ## ¿Por qué usamos Oauth2?
 
 ### ¿Cómo integramos Oauth2?

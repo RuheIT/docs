@@ -1,7 +1,7 @@
-$Files = Get-ChildItem .\docs -Recurse -Force 
+$Files = Get-ChildItem .\docs -Include *.md -Recurse -Force 
 
-foreach ($File in $Files) {
-    $Words = Get-Content $File.PSPath | Measure-Object -Word -Line
+$Files | Foreach-Object {
+    $Words = Get-Content $_.PSPath | Measure-Object -Word -Line -IgnoreWhiteSpace
     $WordCount += $Words.Words
     $LineCount += $Words.Lines
 }
