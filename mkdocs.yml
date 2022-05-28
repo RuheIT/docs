@@ -45,6 +45,7 @@ nav:
     - Crypto: crypto.md
     - Intranet: intranet.md
     - Aplicaciones:
+      - Centralita (3CX): aplicaciones/centralita.md
       - GoPhish: aplicaciones/gophish.md
       - Grafana: aplicaciones/grafana.md
       - Mailcow: aplicaciones/mailcow.md
