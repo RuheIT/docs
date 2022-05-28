@@ -8,4 +8,12 @@ Nessus es una herramienta de escaneo remota, esta herramienta escanea y alerta s
 
 ## ¿Quién usaría una herramienta así?
 
-Esta herramienta puede ser utilizada con varios fines, normalmente suele ser usada para auditorías o cómo escáner persistente de la red interna/externa
+Esta herramienta puede ser utilizada con varios fines, normalmente suele ser usada para auditorías o cómo escáner persistente de la red interna/externa.
+
+Nessus es usado por todo tipo de empresas.
+
+## ¿Por qué Nessus?
+
+## ¿Cómo funciona Nessus? 
+
+
