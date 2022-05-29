@@ -40,7 +40,6 @@ nav:
       - Práctica 7: empresa/practica7.md
       - Práctica 8: empresa/practica8.md
     - Infraestructura: infra.md
-    - Herramientas: herramientas.md
     - Microsoft 365 y Azure: microsoft365.md
     - Crypto: crypto.md
     - Intranet: intranet.md
@@ -60,7 +59,6 @@ nav:
       - Zabbix: aplicaciones/zabbix.md
     - Servicios:
       - Auditoría de sistemas (interna): servicios/auditsistemas.md
-      - Auditorías de redes inalámbricas: servicios/auditoriainalambricas.md
       - Auditorías de infraestructura web: servicios/auditweb.md
       - Campañas de phising, awareness: servicios/phishingawareness.md
       - Gestión de infraestructura: servicios/gestioninfra.md
@@ -75,7 +73,7 @@ nav:
       - Mitigaciones realizadas:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
         - PkExec (PwnKit): mitigacionesSeguridad/pkexecPwnKit.md
-
+        - Authentication Bypass Intranet: mitigacionesSeguridad/authbypassintranet.md
 extra:
   generator: false
   analytics:

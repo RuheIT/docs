@@ -1,3 +1,7 @@
+$Date = Get-Date -Format "dd/MM/yyyy hh:mm:ss"
+
+Write-Host "Timestamp: $Date"
+
 $Files = Get-ChildItem .\docs -Include *.md -Recurse -Force 
 
 $Files | Foreach-Object {
