@@ -1,6 +1,6 @@
 # Nessus
 
-Nessus es una herramienta de escaneo remota, esta herramienta escanea y alerta si descubre alguna vulnerabilidad que pueda ser explotada de manera local y remota. Normalmente estas vulnerabilidades se catalogan según el tipo de critícidad de la vulnerabiliad, entre ellas pueden ser:
+Nessus es una herramienta de escaneo remota, la cual en el caso de RuheIT ha sido desplegada en docker, esta herramienta escanea y alerta si descubre alguna vulnerabilidad que pueda ser explotada de manera local y remota. Normalmente estas vulnerabilidades se catalogan según el tipo de critícidad de la vulnerabiliad, entre ellas pueden ser:
 
 - **Críticas**
 - **Altas**
