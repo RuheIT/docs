@@ -57,7 +57,6 @@ nav:
       - PwnDoc: aplicaciones/pwndoc.md
       - Vault: aplicaciones/vault.md
       - Veeam: aplicaciones/veeam.md
-      - Zabbix: aplicaciones/zabbix.md
     - Servicios:
       - Auditoría de sistemas (interna): servicios/auditsistemas.md
       - Auditorías de infraestructura web: servicios/auditweb.md
