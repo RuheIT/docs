@@ -10,4 +10,4 @@ iframe {
 }
 </style>
 
-<iframe src="../pdf/Auditoria-RuheIT.pdf" type="application/pdf" width="100%">
+<iframe src="pdf/Auditoria-RuheIT.pdf" type="application/pdf" width="100%">

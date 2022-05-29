@@ -9,4 +9,4 @@ iframe {
 }
 </style>
 
-<iframe src="../pdf/prac6.pdf" type="application/pdf" width="100%">
+<iframe src="pdf/prac6.pdf" type="application/pdf" width="100%">

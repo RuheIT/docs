@@ -1,4 +1,5 @@
 site_name: RuheIT Docs
+use_directory_urls: false
 theme:
   name: material
   font:
