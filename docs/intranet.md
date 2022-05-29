@@ -21,7 +21,9 @@ Una vez iniciada la sesión, lo primero que vemos es un menú, el cual el conten
 
 ![Intranet Navbar](img/IntranetNav.png)
 
-### Management
+### Navbar de administrador
+
+#### Management
 
 Esta opción aparecerá únicamente para usuarios con rol administrativo, contiene las siguientes páginas:
 
@@ -29,7 +31,7 @@ Esta opción aparecerá únicamente para usuarios con rol administrativo, contie
 * User lists
 * User creation
 
-#### User List
+##### User List
 
 Es un acceso a la lista de usuarios donde se podrán modificar los datos de los distintos usuarios.
 
@@ -38,6 +40,57 @@ Es un acceso a la lista de usuarios donde se podrán modificar los datos de los 
 Dentro de cada usuario podemos editar sus propiedades
 
 ![Intranet User Edit](./img/IntranetUserEdit.png)
+##### Requests
+
+![Intranet Requests](./img/IntranetRequests.png)
+
+Es un acceso a las distintas peticiones tanto de vacaciones como de días de baja y podrán aceptar o declinar aquellas cuyo estado este "On Hold" (En espera) dando una razón en caso de ser necesario. También se podrán ver las peticiones ya cerradas.
+
+##### User creation
+
+Permite a un usuario administrador crear un usuario y añadirlo a la base de datos.
+
+![Intranet User Creation](./img/IntranetUserCreation.png)
+
+El formulario de "Sign Up" consta de la siguiente función que se encarga de crear una contraseña segura juntando mayúsculas, minúsculas, números y carácteres especiales.
+
+```javascript title="Generador password segura, show/hide de password y alert para copiar password."
+function generatePassword() {
+    var length = 15,
+    charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!#$%&()*+,-./:;=?@^_`{|}~",
+    retVal = "";
+    for (var i = 0, n = charset.length; i < length; ++i) {
+        retVal += charset.charAt(Math.floor(Math.random() * n));
+    }
+    document.getElementById("password").value = retVal;
+}
+function changeType() {
+    var x = document.getElementById("password");
+    if (x.type === "password") {
+        x.type = "text";
+    } else {
+        x.type = "password";
+    }
+}
+function passwordCopy(){
+    var password = document.getElementById('password').value; 
+    alert('Be sure of copying the password: ' + password);
+}
+```
+
+En la opción de “Applications”, las opciones “Gophish”, “PwnDoc”, “CodiMD” y “Nessus” són exclusivas para aquellos con rol administrativo. Éstas opciones, contienen un acceso directo hacia la ubicación de dichas herramientas usadas para el correcto funcionamiento de la empresa.
+
+![Intranet Applications](./img/IntranetApplications.png)
+
+****
+### Navbar para trabajadores 
+
+El trabajador común se encontrará con una barra de navegación más limitada en cuanto a opciones se refiere, las opciones de esta barra de navegación estarán en todos los usuarios.
+
+![Intranet Nav Worker](./img/IntranetNavWorker.png)
+
+#### 
+
 ## ¿Por qué usamos Oauth2?
 
 ### ¿Cómo integramos Oauth2?
