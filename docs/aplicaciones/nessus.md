@@ -26,6 +26,8 @@ Nessus nos ofrece una generación de informes mucho más intuitiva, a parte que 
 
 Nessus tiene una pestaña de **configuración** el cual nos permite configurar parámetros como el servidor SMTP para que nessus nos avise de cuando han acabado los escaneos, configuraciones de perfil, usuarios....
 
+![nessus1](../img/apps/nessus1.png)
 
+Nessus funciona con la API de CVE-Details, la cual permite buscar y analizar las vulnerabilidades y CVE, que se encuentren en CVE-Details y asi poder gestionar y mostrar las fallas que se han encontrado y un plan de mitigación sobre estas, en esta pestaña podemos crear nuestros escaneos, con el scope que queramos y hacia donde irá el escaneo, si una ip en concreto, un rango de red...
 
-Nessus funciona con la API de CVE-Details, la cual permite buscar y analizar las vulnerabilidades y CVE, que se encuentren en CVE-Details y asi poder gestionar y mostrar las fallas que se han encontrado y un plan de mitigación sobre estas.
+![nessus2](../img/apps/nessus2.png)
