@@ -2,7 +2,7 @@
 
 ## ¿Qué es una intranet?
 
-## ¿Por qué necesitas una intranet en tu empresa?
+Una Intranet es una plataforma digital cuyo objetivo es asistir a los trabajadores en la generación de valor para la empresa, poniendo a su disposición activos como contenidos, archivos, procesos de negocio y herramientas; facilitando la colaboración y comunicación entre las personas y los equipos.
 
 ## Introducción a nuestra intranet
 
@@ -165,6 +165,8 @@ OAuth2.0, es un estándar abierto que permite compartir datos entre distintas en
 
 ## ¿Por qué usamos Oauth2?
 
+Oauth2 nos permite conectarnos con Azure AD y una vez más delegar la autenticación a nuestro IDP.
+
 ### ¿Cómo integramos Oauth2?
 
 Primero creamos una aplicación en el Azure Active Directory para la Intranet. Una vez creada la aplicación, obtenemos los datos que posteriormente el código proporcionado por la documentación oficial de Microsoft nos pedirá para establecer una conexión con nuestra aplicación de Azure Active Directory. Estos datos son, el Id de la Aplicación, el Id de la Instancia de Cloud, y el `Tenant Id`. También será necesario un código secreto de cliente, éste se crea accediendo al panel de administración de la aplicación previamente creada en el Azure Active Directory, en la opción Certificados y Secretos.
@@ -305,14 +307,16 @@ Es un sistema de creación y gestión de bases de datos relacional.
 
 Con MySQL hemos creado la base de datos "intranet" con las siguientes tables:
 
+![Intranet DB01](./img/BD1.PNG)
+![Intranet DB01](./img/BD2.PNG)
+![Intranet DB01](./img/BD3.PNG)
+![Intranet DB01](./img/BD4.PNG)
 
 ## Handlebars
 
 Handlebars es un popular sistema de plantillas en Javascript que te permite crear y formatear código HTML de una manera muy sencilla
 
 ![Intranet HBS](./img/IntranetHBS.png)
-
-Código para instalar los paquetes necesarios para integrar Handlebars:
 
 ```nodejsrepl title="Código para instalar los paquetes necesarios para integrar Handlebars"
 npm install express-handlebars
@@ -342,4 +346,30 @@ Con la siguiente sentencia if, hemos podido ocultar/mostrar contenido de la barr
 
 ```nodejsrepl title="Instalación de helpers HBS"
 npm install --save handlebars-helpers
+```
+
+Message: Mostrará los mensajes tanto de successful como de dismiss en caso de ser llamados, como contiene el >, el contenido no variará.
+
+```nodejsrepl title="Message"
+{{> message }}
+```
+
+Body: Contiene el contenido de las distintas páginas, como no tiene >, su contenido variará en función de la página que muestre.
+
+```nodejsrepl title="Body"
+{{{ body }}}
+```
+
+Bootstrap: Es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web. Contiene plantillas de diseño con tipografía, formularios, botones, cuadros, menús de navegación y otros elementos de diseño basado en HTML y CSS, así como extensiones de JavaScript adicionales. A diferencia de muchos frameworks web, solo se ocupa del desarrollo front-end.
+
+Para añadir los estilos de Bootstrap, hemos añadido la siguiente línea de código al `<head></head>` del archivo main de handlebars.
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+```
+
+Para añadir los scripts de Bootstrap, hemos añadido la siguiente línea de código en el `<body></body>` del archivo main de handlebars.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 ```
