@@ -22,3 +22,4 @@ Las tareas se realizarán en tres fases:
 
 La duración aproximada de la campaña será de una media de entre 1 semana.
 
+![awar1](../img/apps/awar1.png)
