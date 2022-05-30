@@ -71,6 +71,7 @@ nav:
         - XMLRPC en WordPress: mitigacionesSeguridad/mitigationXmlrpc.md
         - PkExec (PwnKit): mitigacionesSeguridad/pkexecPwnKit.md
         - Authentication Bypass Intranet: mitigacionesSeguridad/authbypassintranet.md
+    - Webgrafia: webgrafia.md
 extra:
   generator: false
   analytics:
