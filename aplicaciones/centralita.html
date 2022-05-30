@@ -1,0 +1,1447 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.16">
+    
+    
+      
+        <title>Centralita (3CX) - RuheIT Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1c3799f8.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.cc9b2e1e.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+  <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-E7KR9DKYXC"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&gtag("event","search",{search_term:this.value})}),"undefined"!=typeof location$&&location$.subscribe(function(e){gtag("config","G-E7KR9DKYXC",{page_path:e.pathname})})})</script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7KR9DKYXC"></script>
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#centralita" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../index.html" title="RuheIT Docs" class="md-header__button md-logo" aria-label="RuheIT Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            RuheIT Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Centralita (3CX)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent=""  aria-label="Activa el modo oscuro"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Activa el modo oscuro" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent=""  aria-label="Activa el modo claro"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Activa el modo claro" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpiar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../index.html" class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../equipo.html" class="md-tabs__link">
+      Equipo
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../memoria.html" class="md-tabs__link">
+      Memoria
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../empresa/practica1.html" class="md-tabs__link">
+        Empresa
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../infra.html" class="md-tabs__link">
+      Infraestructura
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../microsoft365.html" class="md-tabs__link">
+      Microsoft 365 y Azure
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../crypto.html" class="md-tabs__link">
+      Crypto
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../intranet.html" class="md-tabs__link">
+      Intranet
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="centralita.html" class="md-tabs__link md-tabs__link--active">
+        Aplicaciones
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../servicios/auditsistemas.html" class="md-tabs__link">
+        Servicios
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mitigacionesSeguridad/auditoria.html" class="md-tabs__link">
+        Seguridad
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../webgrafia.html" class="md-tabs__link">
+      Webgrafia
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="RuheIT Docs" class="md-nav__button md-logo" aria-label="RuheIT Docs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    RuheIT Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equipo.html" class="md-nav__link">
+        Equipo
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../memoria.html" class="md-nav__link">
+        Memoria
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Empresa
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Empresa" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Empresa
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica1.html" class="md-nav__link">
+        Práctica 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica2.html" class="md-nav__link">
+        Práctica 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica3.html" class="md-nav__link">
+        Práctica 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica4.html" class="md-nav__link">
+        Práctica 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica5.html" class="md-nav__link">
+        Práctica 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica6.html" class="md-nav__link">
+        Práctica 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica7.html" class="md-nav__link">
+        Práctica 7
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../empresa/practica8.html" class="md-nav__link">
+        Práctica 8
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../infra.html" class="md-nav__link">
+        Infraestructura
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../microsoft365.html" class="md-nav__link">
+        Microsoft 365 y Azure
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../crypto.html" class="md-nav__link">
+        Crypto
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../intranet.html" class="md-nav__link">
+        Intranet
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          Aplicaciones
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Aplicaciones" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Aplicaciones
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Centralita (3CX)
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="centralita.html" class="md-nav__link md-nav__link--active">
+        Centralita (3CX)
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="Contenido">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Contenido
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#que-es-3cx" class="md-nav__link">
+    ¿Qué es 3CX?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#como-funciona-una-centralita-ip" class="md-nav__link">
+    ¿Cómo funciona una centralita IP?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gestion-de-usuarios" class="md-nav__link">
+    Gestión de usuarios
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ring-groups" class="md-nav__link">
+    Ring Groups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paging" class="md-nav__link">
+    Paging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sip-trunk" class="md-nav__link">
+    SIP Trunk
+  </a>
+  
+    <nav class="md-nav" aria-label="SIP Trunk">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#que-es-un-sip-trunk" class="md-nav__link">
+    ¿Qué es un SIP Trunk?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#que-es-un-proveedor-de-sip-trunk" class="md-nav__link">
+    ¿Qué es un proveedor de SIP Trunk?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="gophish.html" class="md-nav__link">
+        GoPhish
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="grafana.html" class="md-nav__link">
+        Grafana
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="mailcow.html" class="md-nav__link">
+        Mailcow
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="nessus.html" class="md-nav__link">
+        Nessus
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="portainer.html" class="md-nav__link">
+        Portainer
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="codimd.html" class="md-nav__link">
+        CodiMD
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="moodle.html" class="md-nav__link">
+        Moodle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="pritunl.html" class="md-nav__link">
+        Pritunl
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="pwndoc.html" class="md-nav__link">
+        PwnDoc
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="vault.html" class="md-nav__link">
+        Vault
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="veeam.html" class="md-nav__link">
+        Veeam
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          Servicios
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Servicios" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Servicios
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/auditsistemas.html" class="md-nav__link">
+        Auditoría de sistemas (interna)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/auditweb.html" class="md-nav__link">
+        Auditorías de infraestructura web
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/phishingawareness.html" class="md-nav__link">
+        Campañas de phising, awareness
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/gestioninfra.html" class="md-nav__link">
+        Gestión de infraestructura
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/emailandcolab.html" class="md-nav__link">
+        Correo y colaboración
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/vdi.html" class="md-nav__link">
+        VDI
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../servicios/webhosting.html" class="md-nav__link">
+        Web hosting
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          Seguridad
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Seguridad" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Seguridad
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitigacionesSeguridad/auditoria.html" class="md-nav__link">
+        Auditoría de seguridad
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11_2" type="checkbox" id="__nav_11_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_11_2">
+          Mitigaciones realizadas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Mitigaciones realizadas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_11_2">
+          <span class="md-nav__icon md-icon"></span>
+          Mitigaciones realizadas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitigacionesSeguridad/mitigationXmlrpc.html" class="md-nav__link">
+        XMLRPC en WordPress
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitigacionesSeguridad/pkexecPwnKit.html" class="md-nav__link">
+        PkExec (PwnKit)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitigacionesSeguridad/authbypassintranet.html" class="md-nav__link">
+        Authentication Bypass Intranet
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../webgrafia.html" class="md-nav__link">
+        Webgrafia
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="centralita">Centralita</h1>
+<p>En RuheIT hemos desplegado una centralita que nos permite hacer y recibir llamadas de manera interna y externa.</p>
+<p>A esta centralita podemos conectarnos: </p>
+<ul>
+<li>Vía Softphone: un software en nuestro móvil o pc que nos permite conectarnos con el servidor.</li>
+<li>Vía un teléfono IP: nuestra centralita permite la conexión de la mayoría de teléfonos IP.</li>
+</ul>
+<p>Esta centralita ha sido desplegada en AWS y utiliza el software 3CX para funcionar.</p>
+<h2 id="que-es-3cx">¿Qué es 3CX?</h2>
+<p>3CX es un PBX (private branch exchange) que funciona mediante el protocolo SIP. Es un PBX que puede ser hosteado en la nube o de manera local y permite configurarse vía una interfaz web (nada de comandos, aunque está disponible una shell).</p>
+<p><center>
+<img alt="Cloud PBX Model" src="../img/apps/3cx1.png" />
+</center></p>
+<h2 id="como-funciona-una-centralita-ip">¿Cómo funciona una centralita IP?</h2>
+<p>Una centralita consiste en:</p>
+<ul>
+<li>Un PBX (o servidor SIP), en este caso 3CX.</li>
+<li>Uno o más teléfonos IP compatibles con el protocolo SIP.</li>
+<li>Un SIP Trunk: permite conectar un teléfono de la PSTN (Public Service Telephony Network) a nuestra centralita, en nuestro caso utilizamos un SIP Trunk de la empresa Netelip para poder recibir llamadas.</li>
+</ul>
+<p><img alt="3CX Estructura" src="https://www.tec-innova.mx/wp-content/uploads/2021/12/Vista-general-de-un-sistema-telefonico-VoIP.png" /></p>
+<hr />
+<p>Dentro de nuestra centralita IP tenemos configurado lo siguiente:</p>
+<ul>
+<li>Usuarios</li>
+<li>Ring Groups</li>
+<li>Paging</li>
+<li>SIP Trunk</li>
+<li>Reglas de entrada y salida</li>
+<li>Virtual Recepcionists (IVR)</li>
+</ul>
+<h2 id="gestion-de-usuarios">Gestión de usuarios</h2>
+<p>Siguiendo la línea de la empresa, los usuarios están sincronizados con Azure AD. Todos los usuarios que creamos en nuestro entorno de Active Directory local y sincronizamos con Azure AD disponen de un usuario en nuestra centralita.</p>
+<p>Gracias a esto se ha implementado el SSO para acceder tanto a los softphones cómo al panel de administración, lo que permite una vez más no disponer de una contraseña más para un servicio, y delegar así la autenticación en nuestro IdP de preferencia.</p>
+<p>Cada usuario dispone de una extensión asignada, así como de un teléfono (softphone, físico o los 2).</p>
+<p><img alt="3CX M365" src="../img/apps/3cx2.jpg" /></p>
+<h2 id="ring-groups">Ring Groups</h2>
+<p>Un ring group es una ruta de llamadas que tiene una extensión propia, cuando un usuario o IVR llama a esa extensión puede efectuar 2 cosas:</p>
+<ul>
+<li>Prioritised Hunt: llama a la primera extensión del grupo, después a la otra...</li>
+<li>Ring all: llama a todos hasta que responda la llamada un miembro del grupo.</li>
+</ul>
+<p>En nuestro caso, cada departamento tiene su ring group, lo que facilita la comunicación entre departamentos. Estos ring groups pueden ser llamados de manera interna </p>
+<div class="admonition note">
+<p class="admonition-title">Mejoras</p>
+<p>Algo a considerar para futuro, es que cada ring group o departamento disponga de su CID (Caller ID, un número externo).</p>
+</div>
+<h2 id="paging">Paging</h2>
+<p>El paging es usado para enviar mensajes de voz a X extensiones, es comúnmente usados para hacer anuncios relevantes.</p>
+<p>El paging funciona sin que el usuario tenga que responder la llamada, por lo que es útil para "broadcastear" mensajes.   </p>
+<h2 id="sip-trunk">SIP Trunk</h2>
+<h3 id="que-es-un-sip-trunk">¿Qué es un SIP Trunk?</h3>
+<p>Un SIP trunk es la versión digital de una línea analógica de teléfono, usando SIP trunks podemos conectarnos a cualquier número de teléfono que nos proporcione nuestro proveedor de manera digital, pudiendo tener un teléfono en cualquier parte del mundo vía internet.</p>
+<p><img alt="SIP Trunk Explained" src="https://www.sangoma.com/wp-content/uploads/SIP_Trunking_Blog_Image-e1451570049819-16315.png" /></p>
+<h3 id="que-es-un-proveedor-de-sip-trunk">¿Qué es un proveedor de SIP Trunk?</h3>
+<p>Un proveedor de SIP Trunk es la empresa que nos proporciona el número de teléfono virtual, por ejemplo:</p>
+<ul>
+<li>Telefónica</li>
+<li>Amazon Chime</li>
+<li>OVH</li>
+<li>DidLogic</li>
+<li>Netelip</li>
+<li>Digium</li>
+<li>Twillio</li>
+</ul>
+<p>Tras probar varios, decidimos quedarnos con Netelip para el proyecto ya que nos proporciona un número de manera gratuita que nos permite recibir llamadas al número +34 810101756.</p>
+<div class="admonition info">
+<p class="admonition-title">¿Qué es este número y que tiene de especial?</p>
+<p>Si nos fijamos, este no es un número fijo convencional que empieza por 9, es un número que empieza por 810. Estos números son llamados "nómadas VOIP", no han de ser confundidos con números de tarificación especial. Permiten a la empresa tener asignado un número de teléfono con independencia de su localización geográfica y se realiza vía IP. El coste de las llamadas a estos números es el mismo que el de llamar a un fijo. </p>
+</div>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Volver al principio
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Pie">
+      
+        
+        <a href="../intranet.html" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Intranet" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Intranet
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="gophish.html" class="md-footer__link md-footer__link--next" aria-label="Siguiente: GoPhish" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Siguiente
+              </span>
+              GoPhish
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2022 RuheIT
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "toc.integrate"], "search": "../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "B\u00fasqueda", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version.title": "Seleccionar versi\u00f3n"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3a4b43e5.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
