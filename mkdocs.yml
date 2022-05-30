@@ -62,7 +62,6 @@ nav:
       - Auditorías de infraestructura web: servicios/auditweb.md
       - Campañas de phising, awareness: servicios/phishingawareness.md
       - Gestión de infraestructura: servicios/gestioninfra.md
-      - Monitorización de servidores y servicios: servicios/monitoring.md
       - Correo y colaboración: servicios/emailandcolab.md
       - VDI: servicios/vdi.md
       - Web hosting: servicios/webhosting.md
