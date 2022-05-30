@@ -6,7 +6,7 @@ siempre encendido, si quieres que esté disponible siempre que quieras acceder a
 
 A diferencia del ordenador que podemos tener en casa, para servir un sitio web necesitamos una máquina que esté conectada a Internet a través de una red que tenga un ancho de banda más amplio que las típicas conexiones domésticas. Y sobre todo que esté plenamente operativa las 24 horas del día, los siete días de la semana. A estas máquinas u ordenadores, es lo que conocemos como servidores web.
 
-![web](../img/web.jpg)
+![web](../img/cloud.jpg)
 
 ## ¿Para qué sirve el alojamiento o hosting web?
 
