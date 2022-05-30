@@ -23,9 +23,9 @@ Estas empresas facilitan soluciones web para todo tipo de proyectos con el fin d
 
 Hay 5 tipos de hosting web diferentes:
 
-Hosting compartido.
-Servidor virtual VPS.
-Hosting de WordPress.
-Servidor dedicado.
-Hosting profesional.
+- Hosting compartido.
+- Servidor virtual VPS.
+- Hosting de WordPress.
+- Servidor dedicado.
+- Hosting profesional.
 
