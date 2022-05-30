@@ -1,4 +1,4 @@
-$Date = Get-Date -Format "dd/MM/yyyy hh:mm:ss"
+$Date = Get-Date -Format "dd/MM/yyyy HH:mm:ss"
 
 Write-Host "Timestamp: $Date"
 
