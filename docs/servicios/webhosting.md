@@ -16,7 +16,7 @@ Aunque dispongas de fondos suficientes para comprar tu propio servidor y una con
 Las empresas de hosting disponen de servidores propios para almacenar los sitios web de su clientes, y están localizados en un Centro de Procesamiento de Datos (CPD).
 Es decir, una infraestructura que dispone de los sistemas de seguridad más avanzados (tanto físicos o de hardware, como de software) y conexiones a Internet permanentes y seguras, para evitar posibles fallos o errores en los servicios.
 
-![cpd](../img/cpd.jpg)
+![cpd](../img/web.jpg)
 
 ## ¿Qué tipos de hosting web hay?
 Estas empresas facilitan soluciones web para todo tipo de proyectos con el fin de garantizar el mejor rendimiento web.
